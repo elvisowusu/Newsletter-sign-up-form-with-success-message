@@ -6,6 +6,7 @@
     justify-content:center;
     align-items: center;
     border-radius: 2rem;
+    color:  rgb(39, 39, 63);
 }
 .join{
     font-size: 16px;
@@ -24,10 +25,13 @@
     font-weight: 700;
 }
 .subscriptionBtn{
-   margin-top: 1.6rem;
-   border-radius: 0.6rem;
-   padding:0.8rem 3.5rem ;
+   margin: 1.2rem 0rem 2rem 0rem;
+   border-radius: 0.5rem;
+   border: none ;
+   padding:1rem 3.6rem ;
    font-weight: 700;
+   color: white;
+   background-color: rgb(39, 39, 63) ;
 }
 .emailInput{
     margin-top: 0.4rem;
