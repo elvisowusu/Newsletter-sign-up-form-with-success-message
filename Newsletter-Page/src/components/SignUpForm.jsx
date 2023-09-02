@@ -20,7 +20,10 @@ export const SignUpForm =()=>{
                 </form>
                 <button className="subscriptionBtn"> Subscribe to monthly newsletter</button>
             </div>
-            <img src={image} alt="SignUp image here" />
+            <div className="signUpImage">
+            <img  src={image} alt="SignUp image here" />
+            </div>
+            
         </div>
     )
 }
