@@ -15,7 +15,7 @@ export const SignUpForm =()=>{
                         <li>Add much more</li>
                 </div>
                 <form action="">
-                    <label htmlFor="">Email Address</label>
+                    <label htmlFor="">Email Address</label><br />
                     <input type="email" />
                 </form>
                 <button className="subscriptionBtn"> Subscribe to monthly newsletter</button>

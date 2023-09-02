@@ -1,9 +1,12 @@
 .mainPage{
     background-color: white;
     height: 40rem;
-    width: 75rem;
+    width: 53rem;
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     border-radius: 2rem;
+}
+p{
+    font-size: 16px;
 }
