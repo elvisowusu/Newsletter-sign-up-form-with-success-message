@@ -1,7 +1,7 @@
 .mainPage{
     background-color: white;
     height: 40rem;
-    width: 53rem;
+    width: 54rem;
     display: flex;
     justify-content:center;
     align-items: center;
@@ -9,4 +9,15 @@
 }
 p{
     font-size: 16px;
+    width: 21rem;
+}
+.signUp{
+    margin-left: 2rem;
+}
+.signUpImage{
+    margin-left: 3.6rem;
+}
+.signUp>h1{
+    font-size:3.4rem;
+    font-weight: 600;
 }
