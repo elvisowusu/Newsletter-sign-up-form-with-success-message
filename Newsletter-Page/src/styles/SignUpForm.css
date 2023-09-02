@@ -8,9 +8,12 @@
     border-radius: 2rem;
     color:  rgb(39, 39, 63);
 }
+.signUp>h1{
+    margin-bottom: 1.4rem;
+}
 .join{
     font-size: 16px;
-    width: 21rem;
+    width: 22rem;
     margin-bottom: 2rem;
     font-weight: 700;
 }
@@ -28,14 +31,14 @@
    margin: 1.2rem 0rem 2rem 0rem;
    border-radius: 0.5rem;
    border: none ;
-   padding:1rem 3.6rem ;
+   padding:1rem 4.1rem ;
    font-weight: 700;
    color: white;
    background-color: rgb(39, 39, 63) ;
 }
 .emailInput{
     margin-top: 0.4rem;
-    padding:0.86rem 8.9rem 0.9rem 0.9rem;
+    padding:0.86rem 10rem 0.9rem 0.9rem;
     border-radius: 0.4rem;
     border:solid 1px hsl(231, 7%, 60%);
 }
