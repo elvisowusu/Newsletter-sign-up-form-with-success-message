@@ -34,5 +34,8 @@ p{
     border:solid 1px hsl(231, 7%, 60%);
 }
 label{
-    font-weight: ;
+    font-weight: 700;
+}
+form{
+    margin-top: 2rem;
 }
