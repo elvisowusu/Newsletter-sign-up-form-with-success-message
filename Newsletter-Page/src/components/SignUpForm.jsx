@@ -16,7 +16,7 @@ export const SignUpForm =()=>{
                 </div>
                 <form action="">
                     <label htmlFor="">Email Address</label><br />
-                    <input className="emailInput" type="email" />
+                    <input className="emailInput" type="email" placeholder="email@company.com"/>
                 </form>
                 <button className="subscriptionBtn"> Subscribe to monthly newsletter</button>
             </div>

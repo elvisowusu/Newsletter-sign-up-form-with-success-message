@@ -24,6 +24,15 @@ p{
 .subscriptionBtn{
    margin-top: 1.5rem;
    border-radius: 0.6rem;
-   padding:0.9rem 3.5rem ;
+   padding:0.8rem 3.5rem ;
    font-weight: 700;
+}
+.emailInput{
+    margin-top: 0.4rem;
+    padding:0.86rem 8.9rem 0.9rem 0.9rem;
+    border-radius: 0.4rem;
+    border:solid 1px hsl(231, 7%, 60%);
+}
+label{
+    font-weight: 700;
 }
