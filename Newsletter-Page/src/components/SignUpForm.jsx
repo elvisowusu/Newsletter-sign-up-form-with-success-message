@@ -4,8 +4,9 @@ import '../styles/SignUpForm.css'
 
 export const SignUpForm =()=>{
     return(
-        <div>
-
+        <div className="mainPage">
+            jh
+            kj
         </div>
     )
 }
