@@ -14,10 +14,11 @@ export const SignUpForm =()=>{
                         <li>Measuring to ensure updates are a success</li>
                         <li>Add much more</li>
                 </div>
-                    <form action="">
-                        <label htmlFor="">Email Address</label>
-                        <input type="email" />
-                    </form>
+                <form action="">
+                    <label htmlFor="">Email Address</label>
+                    <input type="email" />
+                </form>
+                <button className="subscriptionBtn"> Subscribe to monthly newsletter</button>
             </div>
             <img src={image} alt="SignUp image here" />
         </div>
