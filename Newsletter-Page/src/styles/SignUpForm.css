@@ -7,9 +7,11 @@
     align-items: center;
     border-radius: 2rem;
 }
-p{
+.join{
     font-size: 16px;
     width: 21rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
 }
 .signUp{
     margin-left: 2rem;
@@ -22,7 +24,7 @@ p{
     font-weight: 700;
 }
 .subscriptionBtn{
-   margin-top: 1.5rem;
+   margin-top: 1.6rem;
    border-radius: 0.6rem;
    padding:0.8rem 3.5rem ;
    font-weight: 700;

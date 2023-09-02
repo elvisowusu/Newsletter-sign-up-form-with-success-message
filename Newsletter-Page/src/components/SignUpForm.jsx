@@ -10,7 +10,7 @@ export const SignUpForm =()=>{
         <div className="mainPage">
             <div className="signUp">
                 <h1>Stay updated!</h1>
-                <p>Join 60,000+ product managers receiving monthly updates on:</p>
+                <p className="join"> Join 60,000+ product managers receiving monthly updates on:</p>
                 <div className="updateList">
                         <li> <img src={icons} alt="" /> Product discovery and building what matters</li>
                         <li> <img src={icons} alt="" /> Measuring to ensure updates are a success</li>
