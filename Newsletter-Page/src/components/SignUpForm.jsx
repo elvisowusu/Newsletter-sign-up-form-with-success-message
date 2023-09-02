@@ -1,6 +1,8 @@
 import React from "react";
 import '../styles/SignUpForm.css'
 import image from '../assets/signUpImage.svg'
+import icons from '../assets/icon-list.svg'
+
 
 
 export const SignUpForm =()=>{
@@ -10,9 +12,9 @@ export const SignUpForm =()=>{
                 <h1>Stay updated!</h1>
                 <p>Join 60,000+ product managers receiving monthly updates on:</p>
                 <div className="updateList">
-                        <li>Product discovery and building what matters</li>
-                        <li>Measuring to ensure updates are a success</li>
-                        <li>Add much more</li>
+                        <li> <img src={icons} alt="" /> Product discovery and building what matters</li>
+                        <li> <img src={icons} alt="" /> Measuring to ensure updates are a success</li>
+                        <li> <img src={icons} alt="" /> Add much more</li>
                 </div>
                 <form action="">
                     <label htmlFor="">Email Address</label><br />
