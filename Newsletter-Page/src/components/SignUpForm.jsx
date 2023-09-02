@@ -15,6 +15,10 @@ export const SignUpForm =()=>{
                         <li>Measuring to ensure updates are a success</li>
                         <li>Add much more</li>
                     </ul>
+                    <form action="">
+                        <label htmlFor="">Email Address</label>
+                        <input type="email" />
+                    </form>
                 </div>
             </div>
             <img src={image} alt="SignUp image here" />
