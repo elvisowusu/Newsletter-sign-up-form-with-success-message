@@ -1,13 +1,15 @@
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import '../styles/SignUpForm.css'
 import image from '../assets/signUpImage.svg'
 import icons from '../assets/icon-list.svg'
+import mobileImage from '../assets/mobileSignUPImage.svg'
 
 
 
 export const SignUpForm =({setSubscribe,email,setEmail})=>{
-   
     const [emailError, setEmailError] = useState(null);
+    const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
 
 
     
@@ -52,12 +54,23 @@ export const SignUpForm =({setSubscribe,email,setEmail})=>{
         }
       };
 
+      useEffect(()=>{
+        const updateScreenWidth =()=>{
+            setScreenWidth(window.innerWidth);
+        };
+        window.addEventListener("resize", updateScreenWidth);
+
+        return ()=>{
+            window.removeEventListener("resize",updateScreenWidth);
+        };
+      },[]);
     
     
     
     
     return(
         <div className="mainPage">
+
             <div className="signUp">
                 <h1>Stay updated!</h1>
                 <p className="join"> Join 60,000+ product managers receiving monthly updates on:</p>
@@ -86,7 +99,7 @@ export const SignUpForm =({setSubscribe,email,setEmail})=>{
                 </button>
             </div>
             <div className="signUpImage">
-             <img  src={image} alt="SignUp image here" />
+             <img  src={screenWidth<= 414 ? mobileImage : image} alt="SignUp image here" />
             </div>
             
         </div>

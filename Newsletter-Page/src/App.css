@@ -1,8 +1,9 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
 
 body{
-  overflow: hidden;
+  overflow-y: hidden;
   background-color: rgb(39, 39, 63);
   display: flex;
   justify-content: center;
@@ -12,4 +13,11 @@ body{
   padding: 0;
   height: 100vh;
   font-family: 'Roboto', sans-serif;
+}
+@media screen and(max-width:414px) {
+  body{
+    height: auto;
+    overflow-y: scroll;
+  }
+  
 }
