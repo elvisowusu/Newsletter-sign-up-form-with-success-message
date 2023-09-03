@@ -1,4 +1,6 @@
 
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body{
   overflow: hidden;
   background-color: rgb(39, 39, 63);
@@ -9,4 +11,5 @@ body{
   border: 0;
   padding: 0;
   height: 100vh;
+  font-family: 'Roboto', sans-serif;
 }
