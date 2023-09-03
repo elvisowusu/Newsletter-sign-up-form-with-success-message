@@ -5,7 +5,12 @@ import icons from '../assets/icon-list.svg'
 
 
 
-export const SignUpForm =()=>{
+export const SignUpForm =({subscribe,setSubscribe})=>{
+
+    const handleClickEvent =()=>{
+        setSubscribe(true)
+    }
+
     return(
         <div className="mainPage">
             <div className="signUp">
@@ -20,7 +25,7 @@ export const SignUpForm =()=>{
                     <label htmlFor="">Email Address</label><br />
                     <input className="emailInput" type="email" placeholder="email@company.com"/>
                 </form>
-                <button className="subscriptionBtn"> Subscribe to monthly newsletter</button>
+                <button onClick={handleClickEvent} className="subscriptionBtn"> Subscribe to monthly newsletter</button>
             </div>
             <div className="signUpImage">
             <img  src={image} alt="SignUp image here" />

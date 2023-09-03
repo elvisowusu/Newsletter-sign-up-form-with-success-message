@@ -3,10 +3,11 @@ import './App.css'
 import { SignUpForm } from './components/SignUpForm'
 import { Subscribed } from './components/Subscribed'
 function App() {
+  const [subscribe,setSubscribe] = useState(false);
 
   return (
     <>
-      {/* <SignUpForm/> */}
+      <SignUpForm subscribe = {subscribe} setSubscribe={setSubscribe}/>
       <Subscribed/>
     </>
   )
