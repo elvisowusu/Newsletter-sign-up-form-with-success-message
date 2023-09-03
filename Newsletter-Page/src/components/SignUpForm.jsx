@@ -16,7 +16,7 @@ export const SignUpForm =({setSubscribe,email,setEmail})=>{
         setEmail(newEmail)
         // or setEmail(e.target.value); this assigns a new value to the email state
         if(!isValidEmail(newEmail)){
-            setEmailError("Invalid email format");
+            setEmailError("Valid email required");
         }else{
             setEmailError(null);
         }
@@ -67,9 +67,13 @@ export const SignUpForm =({setSubscribe,email,setEmail})=>{
                         <li> <img src={icons} alt="" /> Add much more</li>
                 </div>
                 <form onSubmit={handleFormSubmit}>
+                    <div className="labelError">
                     <label htmlFor="email">Email Address</label><br />
+                    {/* Step 3: Render error message */}
+                    {emailError && <div className="error-message">{emailError}</div>}
+                    </div>
                     <input 
-                    className="emailInput" 
+                    className={`emailInput ${emailError ? 'input-error':''}`} 
                     type="email" 
                     placeholder="email@company.com"
                     name="email" 
@@ -77,14 +81,12 @@ export const SignUpForm =({setSubscribe,email,setEmail})=>{
                     onChange={handleEmailChange}
                     required/>
                 </form>
-                {/* Step 3: Render error message */}
-                {emailError && <div className="error-message">{emailError}</div>}
                 <button onClick={handleClickEvent} className="subscriptionBtn"> 
                  Subscribe to monthly newsletter
                 </button>
             </div>
             <div className="signUpImage">
-            <img  src={image} alt="SignUp image here" />
+             <img  src={image} alt="SignUp image here" />
             </div>
             
         </div>

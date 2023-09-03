@@ -67,3 +67,15 @@ li{
     gap: 1rem;
     align-items: center;
 }
+.error-message{
+    color: hsl(8, 75%, 57%);
+}
+.input-error{
+    color: hsl(8, 75%, 57%);
+    border: solid 2px  hsl(8, 86%, 67%);
+    background-color: hsl(17, 74%, 91%);
+}
+.labelError{
+    display: flex;
+    justify-content: space-between;
+}
