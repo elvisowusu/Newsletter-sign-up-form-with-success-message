@@ -5,7 +5,7 @@ import icons from '../assets/icon-list.svg'
 export const Subscribed =()=>{
     return(
         <div className="main">
-            <img src={icons} alt="" />
+            <img  src={icons} alt="" />
         </div>
     )
 }

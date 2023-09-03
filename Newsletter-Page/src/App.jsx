@@ -7,8 +7,13 @@ function App() {
 
   return (
     <>
+      {subscribe?
+      <Subscribed/> :
+
       <SignUpForm subscribe = {subscribe} setSubscribe={setSubscribe}/>
-      <Subscribed/>
+    }
+      
+      
     </>
   )
 }

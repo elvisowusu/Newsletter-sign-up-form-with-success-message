@@ -34,8 +34,11 @@
    padding:1rem 4.1rem ;
    font-weight: 700;
    color: white;
-   background-color: rgb(39, 39, 63) ;
-   
+   background-color: rgb(39, 39, 63);
+}
+
+.subscriptionBtn:hover{
+    background-color: ;
 }
 .emailInput{
     margin-top: 0.4rem;
