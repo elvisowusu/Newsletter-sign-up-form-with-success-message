@@ -11,7 +11,7 @@ export const Subscribed =({email,setDismissed})=>{
         <div className="main">
             <img  src={icons} alt="" />
             <h1>Thanks for subscribing!</h1>
-            <p>A conference email has been sent to {email}.
+            <p>A conference email has been sent to <b>{email}</b>.
             Please open it and check the button inside to confirm your subscription.</p>
             <button  onClick={handleDismiss} className="dismissMessageBtn">Dismiss Message</button>
         </div>

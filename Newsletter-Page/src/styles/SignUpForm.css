@@ -40,6 +40,7 @@
 .subscriptionBtn:hover{
     cursor: pointer;
     background-color:hsl(4, 100%, 67%);
+    box-shadow: 0 20px 30px rgba(210, 108, 108, 0.3); 
 }
 .subscriptionBtn:active{
     background-color:hsl(3, 74%, 48%);
