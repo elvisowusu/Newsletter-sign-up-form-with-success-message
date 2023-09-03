@@ -4,13 +4,14 @@ import { SignUpForm } from './components/SignUpForm'
 import { Subscribed } from './components/Subscribed'
 function App() {
   const [subscribe,setSubscribe] = useState(false);
+  const [email, setEmail] = useState("");
 
   return (
     <>
       {subscribe?
-      <Subscribed/> :
+      <Subscribed email={email} setDismissed={setSubscribe}/> :
 
-      <SignUpForm subscribe = {subscribe} setSubscribe={setSubscribe}/>
+      <SignUpForm subscribe = {subscribe} setSubscribe={setSubscribe} email={email} setEmail={setEmail}/>
     }
       
       

@@ -46,8 +46,11 @@
 }
 .emailInput{
     margin-top: 0.4rem;
-    padding:0.86rem 10rem 0.9rem 0.9rem;
+    height: 2.65rem;
+    width: 20rem;
+    padding-left: 0.9rem;
     border-radius: 0.4rem;
+    font-size: 1rem;
     border:solid 1px hsl(231, 7%, 60%);
 }
 label{
