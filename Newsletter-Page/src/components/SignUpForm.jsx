@@ -1,11 +1,14 @@
-import React from "react";
+import React, {useState} from "react";
 import '../styles/SignUpForm.css'
 import image from '../assets/signUpImage.svg'
 import icons from '../assets/icon-list.svg'
 
 
 
-export const SignUpForm =({subscribe,setSubscribe})=>{
+export const SignUpForm =({setSubscribe})=>{
+    const [email, setEmail] = useState("");
+    const [emailError, setEmailError] = useState(null);
+
 
     const handleClickEvent =()=>{
         setSubscribe(true)
@@ -23,7 +26,7 @@ export const SignUpForm =({subscribe,setSubscribe})=>{
                 </div>
                 <form action="">
                     <label htmlFor="">Email Address</label><br />
-                    <input className="emailInput" type="email" placeholder="email@company.com"/>
+                    <input className="emailInput" type="email" placeholder="email@company.com" name="email" required/>
                 </form>
                 <button onClick={handleClickEvent} className="subscriptionBtn"> Subscribe to monthly newsletter</button>
             </div>

@@ -38,7 +38,11 @@
 }
 
 .subscriptionBtn:hover{
-    background-color: ;
+    cursor: pointer;
+    background-color:hsl(4, 100%, 67%);
+}
+.subscriptionBtn:active{
+    background-color:hsl(3, 74%, 48%);
 }
 .emailInput{
     margin-top: 0.4rem;
