@@ -79,3 +79,33 @@ li{
     display: flex;
     justify-content: space-between;
 }
+@media screen and (max-width:376px){
+    .mainPage{
+        flex-direction: column-reverse;
+        /* justify-content:center;
+        align-items: center; */
+       
+    }
+    
+.signUp>h1{
+    margin-bottom: 1.4rem;
+}
+.join{
+    font-size: 17px;
+    width: 22rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+.signUp{
+    margin-left: 2rem;
+}
+.signUpImage{
+    margin-left: 0;
+    margin-right: 23rem;
+    width: 0.1rem;
+}
+.signUp>h1{
+    font-size:3rem;
+    font-weight: 700;
+}
+}
