@@ -83,6 +83,8 @@ li{
     .mainPage{
         flex-direction:column-reverse;
         margin-right: 3.6rem;
+        height: 100vh;
+
     }
     .signUp{
         padding-left: 2rem;
