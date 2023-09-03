@@ -77,7 +77,7 @@ export const SignUpForm =({setSubscribe,email,setEmail})=>{
                 <div className="updateList">
                         <li> <img src={icons} alt="" /> Product discovery and building what matters</li>
                         <li> <img src={icons} alt="" /> Measuring to ensure updates are a success</li>
-                        <li> <img src={icons} alt="" /> Add much more</li>
+                        <li> <img src={icons} alt="" /> Add much more!</li>
                 </div>
                 <form onSubmit={handleFormSubmit}>
                     <div className="labelError">
