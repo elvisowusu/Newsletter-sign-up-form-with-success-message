@@ -93,7 +93,6 @@ li{
         font-size: 17px;
         width: 21.5rem;
         margin-bottom: 1.8rem;
-        font-weight: 400;
         padding-left: 0.6rem;
         line-height: 1.5;
     }
@@ -108,10 +107,6 @@ li{
     }
     li{
         font-size: 17px;
-        margin-top: 0.7rem;
-        list-style: none;
-        display: flex;
-        align-items: center;
         width: 20rem;
         line-height: 1.5;
     }
@@ -119,7 +114,20 @@ li{
         margin-top: 2.5rem;
     }
     .updateList> li>img{
-        height: 1.6rem;
-        width: 1.6rem;
+        height: 1.4rem;
+        width: 1.4rem;
     }
+    label{
+        font-weight: 700;
+        font-size: 1.1rem;
+        margin-bottom: 2px;
+    }
+    .emailInput{
+        height: 3.5rem;
+        padding-left: 1.2rem;
+    }
+    .subscriptionBtn{
+        margin: 1.2rem 0rem 2rem 0rem;
+        padding:1.3rem 4.3rem ;
+     }
 }
