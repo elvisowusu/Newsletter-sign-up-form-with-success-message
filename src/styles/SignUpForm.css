@@ -88,14 +88,14 @@ li{
     .mainPage{
         flex-direction:column-reverse;
         margin-right: 3.6rem;
-        height: 105vh;
+        height: 103vh;
         position: absolute;
         left:0rem;
         width: 20.8rem;
         padding-right: 3.9rem;
         border-radius: 0;
         top: 0rem;
-        padding-bottom: 4rem;
+        padding-bottom: 5rem;
     }
     .signUp{
         padding-left: 2rem;
