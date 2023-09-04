@@ -102,10 +102,11 @@ li{
         line-height: 1.5;
     }
     .signUpImage{
+        height: 19.5rem;
         margin-left: 3.6rem;
     }
     .signUpImage>img{
-        height: 18.5rem;
+        width: 24.5rem;
     }
     .signUp>h1{
         font-size:2.8rem;
