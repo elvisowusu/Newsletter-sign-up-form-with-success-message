@@ -14,7 +14,7 @@ body{
   height: 100vh;
   font-family: 'Roboto', sans-serif;
 }
-@media screen and(max-width:414px) {
+@media screen and(max-width:376px) {
   body{
     height: auto;
     overflow-y: scroll;
