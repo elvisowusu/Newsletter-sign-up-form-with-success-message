@@ -21,3 +21,9 @@ body{
   }
   
 }
+@media screen and (max-width: 414px) {
+  body {
+    height: auto;
+    overflow-y: scroll;
+  }
+}
