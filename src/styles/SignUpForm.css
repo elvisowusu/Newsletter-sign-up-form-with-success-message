@@ -132,6 +132,6 @@ li{
      }
 }
 
-@media screen  and{max-width: ;
+@media screen  and(max-width:300){
     
-}
+} ;
