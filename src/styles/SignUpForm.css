@@ -7,7 +7,7 @@
     align-items: center;
     border-radius: 2rem;
     color:  rgb(39, 39, 63);
-    padding-right: 2rem;
+    padding-right: 0.8rem;
 }
 .signUp>h1{
     margin-bottom: 1.4rem;
@@ -16,7 +16,6 @@
     font-size: 16px;
     width: 22rem;
     margin-bottom: 2rem;
-    font-weight: 400;
 }
 .signUp{
     margin-left: 2rem;
@@ -48,12 +47,13 @@
 }
 .emailInput{
     margin-top: 0.4rem;
-    height: 2.65rem;
+    height: 2.85rem;
     width: 20rem;
     padding-left: 0.9rem;
     border-radius: 0.4rem;
     font-size: 1rem;
     border:solid 1px hsl(231, 7%, 60%);
+    margin-bottom: 0.4rem;
 }
 label{
     font-weight: 700;
