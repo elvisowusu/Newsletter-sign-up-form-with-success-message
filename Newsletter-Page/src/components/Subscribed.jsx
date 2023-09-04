@@ -2,9 +2,10 @@ import React from "react";
 import '../styles/Subscribed.css'
 import icons from '../assets/icon-list.svg'
 
-export const Subscribed =({email,setDismissed})=>{
+export const Subscribed =({email,setDismissed,resetEmail})=>{
     const handleDismiss =()=>{
         setDismissed(false);
+        resetEmail("");
     }
 
     return(

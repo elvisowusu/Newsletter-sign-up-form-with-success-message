@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       {subscribe?
-      <Subscribed email={email} setDismissed={setSubscribe}/> :
+      <Subscribed email={email} setDismissed={setSubscribe} resetEmail={setEmail}/> :
 
       <SignUpForm subscribe = {subscribe} setSubscribe={setSubscribe} email={email} setEmail={setEmail}/>
     }
