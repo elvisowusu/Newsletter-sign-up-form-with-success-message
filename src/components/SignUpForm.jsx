@@ -35,7 +35,7 @@ export const SignUpForm =({setSubscribe,email,setEmail})=>{
         if(!emailError){
             setSubscribe(true);
         }else{
-            alert("Please enter email address to proceed")
+            setEmailError("Please enter email address to proceed")
         }
     };
     
