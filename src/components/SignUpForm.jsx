@@ -99,7 +99,7 @@ export const SignUpForm =({setSubscribe,email,setEmail})=>{
                 </button>
             </div>
             <div className="signUpImage">
-             <img  src={screenWidth<= 400 ? mobileImage : image} alt="SignUp image here" />
+             <img  src={screenWidth<= 410 ? mobileImage : image} alt="SignUp image here" />
             </div>
             
         </div>
