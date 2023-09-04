@@ -84,7 +84,7 @@ li{
         width: 23.6rem;
     }
 }
-@media screen and (max-width:414px){
+@media screen and (max-width:500px){
     .mainPage{
         flex-direction:column-reverse;
         margin-right: 3.6rem;
